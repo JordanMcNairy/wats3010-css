@@ -1,5 +1,75 @@
 
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
     color: green;
+    font-family: serif;
+    
+    
+}
+
+header {
+
+    margin: 3rem 1rem;
+    
+}
+
+header h1 {
+    
+    margin-bottom: 0rem;
+    
+}
+
+header p {
+    
+    margin-top: 0;
+    
+}
+
+
+aside {
+    border: 1px solid black;
+    padding: 2rem;
+    max-width: 756px;
+    width: 50%;
+        
+}
+
+aside img {
+    width: 142px;
+    height: auto;
+    float: right;
+    margin: 10px;
+}
+
+
+section {
+
+    clear: both;
+}
+
+ul.poem {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+    font-size: 1.3rem;
+    
+}
+
+.page-footer {
+    border-top: 2px rgba(0,0,0, 0.6) solid;
+    padding: 2rem;
+
+}
+
+html {
+    
+    background-image: url(images/sand.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    padding-left: 4rem;
+    margin: 0%;
+    width: 40%;
+    background-color: rgba(255,255,255,0.3);
 }
